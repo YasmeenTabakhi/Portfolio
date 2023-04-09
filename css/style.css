@@ -191,7 +191,7 @@ dl .li {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
-    gap: 1.5rem;
+    gap: 3rem;
 }
 
 .about .about-img img {
@@ -210,7 +210,7 @@ dl .li {
     color: var(--second-color);
     font-size: var(--p-font);
     line-height: 1.8;
-    margin-bottom: 5rem;
+    margin-bottom: 3rem;
 }
 /* end about */
 
@@ -244,6 +244,13 @@ dl .li {
     padding: 35px 45px;
     border-radius: 8px;
     transition: all 0.45 ease;
+}
+.card {
+    background: linear-gradient(
+        45deg,
+        transparent 40%,
+        var(--main-color),
+        transparent 99%)
 }
 .card h3 {
     font-size: 25px;
@@ -343,6 +350,9 @@ dl .li {
     transform: scale(1.1);
     cursor: pointer;
 
+}
+::placeholder{
+    color: var(--second-color);
 }
 /* end contact */
 
